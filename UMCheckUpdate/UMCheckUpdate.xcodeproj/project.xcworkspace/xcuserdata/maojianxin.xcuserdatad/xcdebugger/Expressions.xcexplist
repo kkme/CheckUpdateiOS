@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[UMCheckUpdate checkUpdateWithAppID:checkUpdateUrl:homeUrl:title:cancelButtonTitle:otherButtonTitles:]:UMCheckUpdate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.updateCancelButtonTitle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UMCheckUpdate alertView:clickedButtonAtIndex:]:UMCheckUpdate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.appHomeUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

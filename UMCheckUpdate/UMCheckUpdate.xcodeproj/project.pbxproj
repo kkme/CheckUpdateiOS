@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F429561CC9F89B0053E111 /* UMCheckUpdate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62F429551CC9F89B0053E111 /* UMCheckUpdate.h */; };
+		62F429581CC9F89B0053E111 /* UMCheckUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F429571CC9F89B0053E111 /* UMCheckUpdate.m */; };
+		62F429601CC9F91A0053E111 /* CheckUpdateUitl.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F4295F1CC9F91A0053E111 /* CheckUpdateUitl.m */; };
+		62F429691CC9FA540053E111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F429681CC9FA540053E111 /* main.m */; };
+		62F4296C1CC9FA540053E111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F4296B1CC9FA540053E111 /* AppDelegate.m */; };
+		62F4296F1CC9FA540053E111 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F4296E1CC9FA540053E111 /* ViewController.m */; };
+		62F429721CC9FA540053E111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F429701CC9FA540053E111 /* Main.storyboard */; };
+		62F429741CC9FA540053E111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F429731CC9FA540053E111 /* Assets.xcassets */; };
+		62F429771CC9FA540053E111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F429751CC9FA540053E111 /* LaunchScreen.storyboard */; };
+		62F429821CC9FA540053E111 /* UMCheckUpdate_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F429811CC9FA540053E111 /* UMCheckUpdate_DemoTests.m */; };
+		62F4298D1CC9FA540053E111 /* UMCheckUpdate_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F4298C1CC9FA540053E111 /* UMCheckUpdate_DemoUITests.m */; };
+		62F429981CC9FCC90053E111 /* UMCheckUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F429571CC9F89B0053E111 /* UMCheckUpdate.m */; };
+		62F429991CC9FCC90053E111 /* CheckUpdateUitl.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F4295F1CC9F91A0053E111 /* CheckUpdateUitl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62F4297E1CC9FA540053E111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F4294A1CC9F89B0053E111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F429641CC9FA540053E111;
+			remoteInfo = UMCheckUpdate_Demo;
+		};
+		62F429891CC9FA540053E111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F4294A1CC9F89B0053E111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F429641CC9FA540053E111;
+			remoteInfo = UMCheckUpdate_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62F429501CC9F89B0053E111 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				62F429561CC9F89B0053E111 /* UMCheckUpdate.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62F429521CC9F89B0053E111 /* libUMCheckUpdate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUMCheckUpdate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F429551CC9F89B0053E111 /* UMCheckUpdate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMCheckUpdate.h; sourceTree = "<group>"; };
+		62F429571CC9F89B0053E111 /* UMCheckUpdate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMCheckUpdate.m; sourceTree = "<group>"; };
+		62F4295E1CC9F8FF0053E111 /* CheckUpdateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckUpdateUtil.h; sourceTree = "<group>"; };
+		62F4295F1CC9F91A0053E111 /* CheckUpdateUitl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckUpdateUitl.m; sourceTree = "<group>"; };
+		62F429651CC9FA540053E111 /* UMCheckUpdate_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMCheckUpdate_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F429681CC9FA540053E111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62F4296A1CC9FA540053E111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62F4296B1CC9FA540053E111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62F4296D1CC9FA540053E111 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62F4296E1CC9FA540053E111 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62F429711CC9FA540053E111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62F429731CC9FA540053E111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62F429761CC9FA540053E111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62F429781CC9FA540053E111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F4297D1CC9FA540053E111 /* UMCheckUpdate_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMCheckUpdate_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F429811CC9FA540053E111 /* UMCheckUpdate_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMCheckUpdate_DemoTests.m; sourceTree = "<group>"; };
+		62F429831CC9FA540053E111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F429881CC9FA540053E111 /* UMCheckUpdate_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMCheckUpdate_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F4298C1CC9FA540053E111 /* UMCheckUpdate_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMCheckUpdate_DemoUITests.m; sourceTree = "<group>"; };
+		62F4298E1CC9FA540053E111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F4294F1CC9F89B0053E111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F429621CC9FA540053E111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4297A1CC9FA540053E111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F429851CC9FA540053E111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62F429491CC9F89B0053E111 = {
+			isa = PBXGroup;
+			children = (
+				62F429541CC9F89B0053E111 /* UMCheckUpdate */,
+				62F429661CC9FA540053E111 /* UMCheckUpdate_Demo */,
+				62F429801CC9FA540053E111 /* UMCheckUpdate_DemoTests */,
+				62F4298B1CC9FA540053E111 /* UMCheckUpdate_DemoUITests */,
+				62F429531CC9F89B0053E111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62F429531CC9F89B0053E111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F429521CC9F89B0053E111 /* libUMCheckUpdate.a */,
+				62F429651CC9FA540053E111 /* UMCheckUpdate_Demo.app */,
+				62F4297D1CC9FA540053E111 /* UMCheckUpdate_DemoTests.xctest */,
+				62F429881CC9FA540053E111 /* UMCheckUpdate_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F429541CC9F89B0053E111 /* UMCheckUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				62F429551CC9F89B0053E111 /* UMCheckUpdate.h */,
+				62F429571CC9F89B0053E111 /* UMCheckUpdate.m */,
+				62F4295E1CC9F8FF0053E111 /* CheckUpdateUtil.h */,
+				62F4295F1CC9F91A0053E111 /* CheckUpdateUitl.m */,
+			);
+			path = UMCheckUpdate;
+			sourceTree = "<group>";
+		};
+		62F429661CC9FA540053E111 /* UMCheckUpdate_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				62F4296A1CC9FA540053E111 /* AppDelegate.h */,
+				62F4296B1CC9FA540053E111 /* AppDelegate.m */,
+				62F4296D1CC9FA540053E111 /* ViewController.h */,
+				62F4296E1CC9FA540053E111 /* ViewController.m */,
+				62F429701CC9FA540053E111 /* Main.storyboard */,
+				62F429731CC9FA540053E111 /* Assets.xcassets */,
+				62F429751CC9FA540053E111 /* LaunchScreen.storyboard */,
+				62F429781CC9FA540053E111 /* Info.plist */,
+				62F429671CC9FA540053E111 /* Supporting Files */,
+			);
+			path = UMCheckUpdate_Demo;
+			sourceTree = "<group>";
+		};
+		62F429671CC9FA540053E111 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F429681CC9FA540053E111 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F429801CC9FA540053E111 /* UMCheckUpdate_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				62F429811CC9FA540053E111 /* UMCheckUpdate_DemoTests.m */,
+				62F429831CC9FA540053E111 /* Info.plist */,
+			);
+			path = UMCheckUpdate_DemoTests;
+			sourceTree = "<group>";
+		};
+		62F4298B1CC9FA540053E111 /* UMCheckUpdate_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62F4298C1CC9FA540053E111 /* UMCheckUpdate_DemoUITests.m */,
+				62F4298E1CC9FA540053E111 /* Info.plist */,
+			);
+			path = UMCheckUpdate_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F429511CC9F89B0053E111 /* UMCheckUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F4295B1CC9F89B0053E111 /* Build configuration list for PBXNativeTarget "UMCheckUpdate" */;
+			buildPhases = (
+				62F4294E1CC9F89B0053E111 /* Sources */,
+				62F4294F1CC9F89B0053E111 /* Frameworks */,
+				62F429501CC9F89B0053E111 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMCheckUpdate;
+			productName = UMCheckUpdate;
+			productReference = 62F429521CC9F89B0053E111 /* libUMCheckUpdate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		62F429641CC9FA540053E111 /* UMCheckUpdate_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F4298F1CC9FA540053E111 /* Build configuration list for PBXNativeTarget "UMCheckUpdate_Demo" */;
+			buildPhases = (
+				62F429611CC9FA540053E111 /* Sources */,
+				62F429621CC9FA540053E111 /* Frameworks */,
+				62F429631CC9FA540053E111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMCheckUpdate_Demo;
+			productName = UMCheckUpdate_Demo;
+			productReference = 62F429651CC9FA540053E111 /* UMCheckUpdate_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F4297C1CC9FA540053E111 /* UMCheckUpdate_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F429921CC9FA540053E111 /* Build configuration list for PBXNativeTarget "UMCheckUpdate_DemoTests" */;
+			buildPhases = (
+				62F429791CC9FA540053E111 /* Sources */,
+				62F4297A1CC9FA540053E111 /* Frameworks */,
+				62F4297B1CC9FA540053E111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F4297F1CC9FA540053E111 /* PBXTargetDependency */,
+			);
+			name = UMCheckUpdate_DemoTests;
+			productName = UMCheckUpdate_DemoTests;
+			productReference = 62F4297D1CC9FA540053E111 /* UMCheckUpdate_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62F429871CC9FA540053E111 /* UMCheckUpdate_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F429951CC9FA540053E111 /* Build configuration list for PBXNativeTarget "UMCheckUpdate_DemoUITests" */;
+			buildPhases = (
+				62F429841CC9FA540053E111 /* Sources */,
+				62F429851CC9FA540053E111 /* Frameworks */,
+				62F429861CC9FA540053E111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F4298A1CC9FA540053E111 /* PBXTargetDependency */,
+			);
+			name = UMCheckUpdate_DemoUITests;
+			productName = UMCheckUpdate_DemoUITests;
+			productReference = 62F429881CC9FA540053E111 /* UMCheckUpdate_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F4294A1CC9F89B0053E111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = umeng.com;
+				TargetAttributes = {
+					62F429511CC9F89B0053E111 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					62F429641CC9FA540053E111 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					62F4297C1CC9FA540053E111 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 62F429641CC9FA540053E111;
+					};
+					62F429871CC9FA540053E111 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 62F429641CC9FA540053E111;
+					};
+				};
+			};
+			buildConfigurationList = 62F4294D1CC9F89B0053E111 /* Build configuration list for PBXProject "UMCheckUpdate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62F429491CC9F89B0053E111;
+			productRefGroup = 62F429531CC9F89B0053E111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F429511CC9F89B0053E111 /* UMCheckUpdate */,
+				62F429641CC9FA540053E111 /* UMCheckUpdate_Demo */,
+				62F4297C1CC9FA540053E111 /* UMCheckUpdate_DemoTests */,
+				62F429871CC9FA540053E111 /* UMCheckUpdate_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F429631CC9FA540053E111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F429771CC9FA540053E111 /* LaunchScreen.storyboard in Resources */,
+				62F429741CC9FA540053E111 /* Assets.xcassets in Resources */,
+				62F429721CC9FA540053E111 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F4297B1CC9FA540053E111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F429861CC9FA540053E111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F4294E1CC9F89B0053E111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F429581CC9F89B0053E111 /* UMCheckUpdate.m in Sources */,
+				62F429601CC9F91A0053E111 /* CheckUpdateUitl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F429611CC9FA540053E111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F429981CC9FCC90053E111 /* UMCheckUpdate.m in Sources */,
+				62F429991CC9FCC90053E111 /* CheckUpdateUitl.m in Sources */,
+				62F4296F1CC9FA540053E111 /* ViewController.m in Sources */,
+				62F4296C1CC9FA540053E111 /* AppDelegate.m in Sources */,
+				62F429691CC9FA540053E111 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F429791CC9FA540053E111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F429821CC9FA540053E111 /* UMCheckUpdate_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F429841CC9FA540053E111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F4298D1CC9FA540053E111 /* UMCheckUpdate_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F4297F1CC9FA540053E111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F429641CC9FA540053E111 /* UMCheckUpdate_Demo */;
+			targetProxy = 62F4297E1CC9FA540053E111 /* PBXContainerItemProxy */;
+		};
+		62F4298A1CC9FA540053E111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F429641CC9FA540053E111 /* UMCheckUpdate_Demo */;
+			targetProxy = 62F429891CC9FA540053E111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62F429701CC9FA540053E111 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F429711CC9FA540053E111 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62F429751CC9FA540053E111 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F429761CC9FA540053E111 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62F429591CC9F89B0053E111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62F4295A1CC9F89B0053E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F4295C1CC9F89B0053E111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		62F4295D1CC9F89B0053E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		62F429901CC9FA540053E111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UMCheckUpdate_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umeng.UMCheckUpdate-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62F429911CC9FA540053E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UMCheckUpdate_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umeng.UMCheckUpdate-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62F429931CC9FA540053E111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UMCheckUpdate_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umeng.UMCheckUpdate-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMCheckUpdate_Demo.app/UMCheckUpdate_Demo";
+			};
+			name = Debug;
+		};
+		62F429941CC9FA540053E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UMCheckUpdate_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umeng.UMCheckUpdate-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UMCheckUpdate_Demo.app/UMCheckUpdate_Demo";
+			};
+			name = Release;
+		};
+		62F429961CC9FA540053E111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UMCheckUpdate_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umeng.UMCheckUpdate-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UMCheckUpdate_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		62F429971CC9FA540053E111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UMCheckUpdate_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.umeng.UMCheckUpdate-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UMCheckUpdate_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F4294D1CC9F89B0053E111 /* Build configuration list for PBXProject "UMCheckUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F429591CC9F89B0053E111 /* Debug */,
+				62F4295A1CC9F89B0053E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F4295B1CC9F89B0053E111 /* Build configuration list for PBXNativeTarget "UMCheckUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F4295C1CC9F89B0053E111 /* Debug */,
+				62F4295D1CC9F89B0053E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62F4298F1CC9FA540053E111 /* Build configuration list for PBXNativeTarget "UMCheckUpdate_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F429901CC9FA540053E111 /* Debug */,
+				62F429911CC9FA540053E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62F429921CC9FA540053E111 /* Build configuration list for PBXNativeTarget "UMCheckUpdate_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F429931CC9FA540053E111 /* Debug */,
+				62F429941CC9FA540053E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62F429951CC9FA540053E111 /* Build configuration list for PBXNativeTarget "UMCheckUpdate_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F429961CC9FA540053E111 /* Debug */,
+				62F429971CC9FA540053E111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62F4294A1CC9F89B0053E111 /* Project object */;
+}
