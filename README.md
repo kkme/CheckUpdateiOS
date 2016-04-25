@@ -4,7 +4,7 @@
 ##   使用iOS自动更新检测
 
 在App提交到appStore后，通过app store上查询，可以获取到app的作者，连接，版本等。
-[点击查看官方文档](www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.htm)
+[点击查看官方文档](http://www.apple.com/itunes/affiliates/resources/documentation/itunes-store-web-service-search-api.htm)
 
 可以通过如下请求得到App的详细信息：
 http://itunes.apple.com/lookup?id=应用程序的ID
